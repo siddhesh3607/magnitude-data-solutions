@@ -1,0 +1,278 @@
+body{
+    color: white;
+    background: url('space-galaxy-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sticky {
+    /* position: fixed; 
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;*/
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+.page1{
+   
+    /* border: 2px solid red; */
+    height: 708px;
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    /* position: sticky; */
+    /* position: -webkit-sticky; */
+    /* position: fixed; */
+    /* top:0; */
+    display: flex;
+    height: 50px;
+    /* border:  3px solid black; */
+    align-items:  center;
+    /* background-color: black; */
+    /* color: white; */
+   
+}
+
+.menu{
+    /* margin-left: 35%; */
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.nav a{
+    margin: 30px;
+    font-size: 22px; 
+    padding: 10px;
+}
+nav a:hover{
+   border: 3px solid black;
+   background-color:black;
+   padding: 10px;
+   border-radius: 20px;
+  text-decoration: underline;
+  /* color: gray; */
+}
+
+.main_text {
+    padding-top:0px ;
+    font-size: 35px;
+}
+
+.main_para{
+    font-size: 22px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.main_text h1{
+    text-align: center;
+    margin: 15px;
+    margin-top: 200px;
+}
+
+.logo{
+    display: flex;
+    font-size: 30px;
+    /* color: #0c417b; */
+    margin: 20px;
+    /* margin-left: 10px; */
+}
+
+.btn{
+    /* border: 2px solid white; */
+    background-color:black ;
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin-top: 0px;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    width: 300px;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 5px 5px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.main_btn{
+    /* margin-left: 35%; */
+    margin-left:560px ;
+    margin-top: 20px;
+}
+
+.text_align_center{
+    align-items: center;
+    text-align:  center;
+    margin-top: 8px;
+ }
+ 
+ .About h1{
+    font-size: 40px;
+    margin: 0px;
+ } 
+ 
+ .aboutpara{
+    font-size: 20px;
+    margin: 10px;
+    height : 650px;
+    margin-top: 10px;
+ }
+ .about_info{
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 5px;
+    height: 150px;
+    background-color:black;
+   
+ }
+ .about_info:hover{
+    transform: scale(1.04);
+ }
+ 
+ .info_heading{
+    font-size: 30px;
+    margin: 15px;
+    text-decoration: underline;
+    
+ }
+
+ .info_heading:hover{
+    text-decoration:none;
+ }
+ .about_info_para{
+    margin: 30px;
+    font-size: 22px;
+ }
+
+
+
+ .page3{
+    height: 750px;
+    /* border: 2px solid black; */
+}
+
+.page3 h1{
+    font-size: 35px;
+    /* text-shadow: 1px 1px rgb(246, 241, 241); */
+}
+
+.box12{
+    margin: 20px;
+   /* align-items: center; */
+   /* height: 00px; */
+/* border: 2px solid black; */
+}
+
+.box12 img{
+    height:  250px;
+    width: 280px;
+    /* margin: 60px; */
+    /* border-radius: 60%; */
+    align-items: center;
+  
+}
+.box12 img:hover{
+     transform: scale(1.05);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.box3{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 23%;
+    /* background-color:#eaeaea; */
+    background-color: black;
+}
+
+.box3:hover{
+    transform: scale(1.05);
+}
+
+.box2 p{
+    padding: 10px;
+    margin: 20px;
+    font-size: 22px;
+}
+.box2 h3{
+    text-align: center;
+   font-size: 22px;
+}
+
+
+.outer-box{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin : 20px;
+margin-top: 50px;
+padding: 10px;
+}
+
+
+.footer{
+    background-color:black;
+    margin-top: 20px;
+}
+.footer .box-container{
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    gap:10px;
+    padding-left: 20px;
+}
+
+.footer .box-container .box h3{
+    font-size: 25px;
+    /* color:var(--black); */
+    padding: 10px 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 18px;
+    color:var(--light-color);
+    padding: 10px;
+}
+
+.footer .box-container .box a i{
+    padding-right: 10px;
+    /* color:var(--green); */
+}
+
+.footer .credit{
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size:18px;
+    /* color:var(--light-color); */
+    /* border-top: .1rem solid rgba(0, 0, 0, .1); */
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
